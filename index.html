@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Shaka Player ui compiled library default CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/shaka-player/3.0.1/controls.css" integrity="sha256-1i0+UvAMao65NeV9G+8cFd3bjnCEVXiFd3FtiLViYH4=" crossorigin="anonymous" />
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="./styles.css" />
+	<link rel="stylesheet" href="volumeBar/volumeBar.css" />
+</head>
+<div data-shaka-player-container style="max-width:40em" data-shaka-player-cast-receiver-id="7B25EC44">
+	<!-- The data-shaka-player tag will make the UI library use this video element.
+            If no video is provided, the UI will automatically make one inside the container div. -->
+	<video autoplay data-shaka-player id="video" style="width:100%;height:100%"></video>
+</div>
+<!-- Shaka Player ui compiled library: -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/shaka-player/3.0.1/shaka-player.ui.js" integrity="sha256-R/CSwxIuCaT+dgrEcKjxO5g6D2w9d0Zpr5ZdqYWRFzI=" crossorigin="anonymous"></script>
+<!-- Chromecast SDK (if you want Chromecast support for your app): -->
+<script defer src="https://www.gstatic.com/cv/js/sender/v1/cast_sender.js"></script>
+<!-- Custom Elements -->
+<script src="volumeBar/volumeBar.js"></script>
+<!-- Your application source: -->
+<script src="index.js"></script>
+</html>

@@ -1,0 +1,14 @@
+/* Big Play Button */
+.shaka-play-button {
+    background-color: transparent;
+    box-shadow: none;
+    background-size: 50%;
+}
+
+.shaka-play-button[icon=play] {
+    background-image: url('icons/icon-play-shadow.svg');
+}
+
+.shaka-play-button[icon=pause] {
+    background-image: url('icons/icon-pause.svg');
+}

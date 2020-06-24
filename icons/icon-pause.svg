@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="280px" height="290px" viewBox="0 0 280 290" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>pause</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-317.9%" y="-272.4%" width="735.4%" height="644.4%" filterUnits="objectBoundingBox" id="filter-1">
+            <feMorphology radius="18" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="71.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.4 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Design-Sympli" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Gen8-PC_Assetboard" transform="translate(-1473.000000, -212.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="Icons" transform="translate(89.000000, 206.000000)">
+                <g transform="translate(0.000000, 78.000000)" id="Group-12">
+                    <g transform="translate(1474.000000, 23.000000)">
+                        <g id="pause" filter="url(#filter-1)" transform="translate(8.000000, 1.000000)">
+                            <path d="M52.1819693,0.561279601 L79.7681762,0.561279601 C81.6726063,0.561279601 83.216452,2.10512529 83.216452,4.00955546 L83.216452,93.6647279 C83.216452,95.569158 81.6726063,97.1130037 79.7681762,97.1130037 L52.1819693,97.1130037 C50.2775391,97.1130037 48.7336934,95.569158 48.7336934,93.6647279 L48.7336934,4.00955546 C48.7336934,2.10512529 50.2775391,0.561279601 52.1819693,0.561279601 Z M3.90610719,0.561279601 L31.4923141,0.561279601 C33.3967443,0.561279601 34.9405899,2.10512529 34.9405899,4.00955546 L34.9405899,93.6647279 C34.9405899,95.569158 33.3967443,97.1130037 31.4923141,97.1130037 L3.90610719,97.1130037 C2.00167702,97.1130037 0.457831325,95.569158 0.457831325,93.6647279 L0.457831325,4.00955546 C0.457831325,2.10512529 2.00167702,0.561279601 3.90610719,0.561279601 Z"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
